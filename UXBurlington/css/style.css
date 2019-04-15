@@ -1,0 +1,224 @@
+body{
+	background:url(../images/background.png);
+	font-family: 'Roboto Mono', ;
+}
+#content{
+	font-family: 'Roboto Mono', ;
+}
+#content{
+	width:95%;
+	margin:0 auto;
+}
+#wrap{
+	width:1280px;
+	margin:0 auto;
+}
+nav{
+	background:#e34e35;
+	padding:5px;
+	text-align:center;
+}
+nav ul{
+	list-style:none;
+}
+nav li{
+	display:inline-block;
+	padding:0px 20px;
+	font-size:1.2em;
+}
+nav a{
+	color:white;
+	display:block;
+	padding:3px;
+}
+a{
+	text-decoration:none;
+}
+#info{
+	text-align:center;
+}
+#waitlist{
+	padding:20px;
+	background:#e34e35;
+	font-size:1.1em;
+	width:200px;
+	margin:0 auto;
+	display:block;
+}
+#waitlist a{
+	color:white;
+}
+#speakers{
+	margin:0 auto;
+}
+#speakers img{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+}
+.img_wrap{
+	display:inline-block;
+	padding:40px;
+}
+p{
+	text-align:center;
+	padding:20px
+}
+h1{
+	text-align:center;
+	padding:20px;
+}
+h2{
+	text-align:center;
+	padding:20px
+}
+h3{
+	text-align:center;
+	padding:20px;
+}
+h4{
+	text-align:center;
+	padding:20px;
+}
+h5{
+	text-align:center;
+	padding:20px;
+}
+h6{
+	text-align:center;
+	padding:20px;
+}
+footer{
+	color:white;
+	background:grey;
+	height:150px;
+	text-align:center;
+}
+footer a{
+	color:white;
+}
+footer a:hover{
+	color:white;
+	font-size:bold;
+}
+#sponsors a{
+	color:#e34e35;
+}
+.found img{
+	width:90%;
+}
+.level2{
+	width:40%;
+}
+.level1{
+	width:25%;
+}
+#hometown{
+	width:550px;
+	border-radius:3px;
+	border:1px black solid;
+	height:40px;
+}
+#myButton{
+	width:100px;
+	background:#e34e35;
+	color:white;
+	border:0;
+	border-radius:3px;
+	height:42px;
+	margin-left:15px;
+}
+#sponsors p{
+	padding:60px 0px;
+}
+footer ul{
+	list-style:none;
+}
+#sponsors h3{
+	font-size:2em;
+}
+#info h1{
+	font-size:4em;
+	color:#e34e35;
+}
+
+
+/*
+########## Resposive web starting ##########
+*/
+
+@media screen and (max-width:1335px){
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+}
+
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+	background: rgb(0,0,0);
+	z-index: 99;
+}
+
+.responsive-menu{
+	display: none;
+}
+
+.expand {
+	display: block !important; 
+}
+footer{
+	width:100%;
+}
+#wrap{
+	width:100%;
+}
+#waitlist{
+	width:70%;
+}
+nav li{
+	display:block;
+	padding:20px 0px;
+}
+nav a{
+	display:block;
+}
+#hometown{
+	width:70%;
+}
+#myButton{
+	width:20%;
+	padding:0px;
+	margin:0px;
+}
+.level2{
+	width:100%;
+	padding:20px 0px;
+}
+.level1{
+	width:100%;
+	padding:20px 0px;
+}
+body{
+	background:none;
+}
+#info h1{
+	font-size:3em;
+	color:#e34e35;
+}
+
+
+
+
+	
+}

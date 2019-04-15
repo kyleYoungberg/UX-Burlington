@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>UX Burlington</title>
+<link rel="icon" href="images/Butterfly-icon.png">
+<link href="css/style.css" rel="stylesheet">
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+<script>
+jQuery(function($){
+    	     $( '.menu-btn' ).click(function(){
+    	     $('.responsive-menu').toggleClass('expand');
+    	     });
+        });
+</script>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div id="content">
+        <div id="wrap">
+        <header>
+<div class="mobile-nav">
+     <div class="menu-btn" id="menu-btn">
+	<div></div>
+	<span></span>
+	<span></span>
+	<span></span>
+     </div>
+     </div>
+           
+                        <nav class="responsive-menu">
+                            <ul>
+                                <li><a href="#" title="#">Home</a></li>
+                                <li><a href="#" title="#">Speakers</a></li>
+                                <li><a href="#" title="#">Schedule</a></li>
+                                <li><a href="#" title="#">Location and Venue</a></li>
+                                <li><a href="#" title="#">Sponsors</a></li>
+                                <li><a href="#" title="#">Waiting List</a></li>
+                            </ul>
+                        </nav>
+                        
+                <div id="info">
+                    <h4>April 29th, 2016</h4>
+                    <h1>UX Burlington</h1>
+                    <h4>Burlington, Vermont</h4>
+                    <p>a single day, conference-style, focused on what it really takes to biuld a great user experience on the web.</p>
+                    <p>This years confrenc is unfortunately sold out, but you should join our waiting list to be among the first to hear about the next year's conference.</p>
+                	<p id="waitlist"><a href="https://ti.to/ux-burlington/2016" title="waiting list page">Join the waiting list</a></p>
+                </div>
+            </header>
+            <div id="speakers">
+                <h2>Speakers</h2>
+                <a href="http://uxburlington.com/speaker/karen.html" title="Karen McGrane bio"><div class="img_wrap">
+                    <img src="images/karen.jpg" alt="Karen McGrane">
+                    <p>Karen McGrane</p>
+                    <h6>Keynote</h6>
+                </div></a>
+                <a href="http://uxburlington.com/speaker/ethan.html" title="Ethan Marcotte bio"><div class="img_wrap">
+                    <img src="images/ethan.jpg" alt="Ethan Marcotte">
+                    <p>Ethan Marcotte</p>
+                    <h6>Keynote</h6>
+                </div></a>
+                <a href="http://uxburlington.com/speaker/rick.html" title="Rick Cusick bio"><div class="img_wrap">
+                    <img src="images/rick.jpg" alt="Rick Cusick">
+                    <p>Rick Cusick</p>
+                    <h6>Reading Plus- UX in EdTech</h6>
+                </div></a>  
+                <a href="http://uxburlington.com/speaker/gail.html" title="Gail Swanson bio"><div class="img_wrap">
+                    <img src="images/gail.jpg" alt="Gail Swanson">
+                    <p>Gail Swanson</p>
+                    <h6>Design in the Machine</h6>
+                </div></a>
+                <a href="http://uxburlington.com/speaker/marguerite.html" title="Marguerite Dibble bio"><div class="img_wrap">
+                    <img src="images/marguerite.jpg" alt="Marguerite Dibble">
+                    <p>Marguerite Dibble</p>
+                    <h6>Game Design Meets UX</h6>
+                </div></a>
+                <a href="http://uxburlington.com/speaker/jordan.html" title="Jordan LaCount bio"><div class="img_wrap">
+                    <img src="images/jordan.jpg" alt="Jordan LaCount">
+                    <p>Jordan LaCount</p>
+                    <h6>UX+Sustainable Design</h6>
+                </div></a>
+                <a href="http://uxburlington.com/speaker/everett.html" title="Everett McKay bio"><div class="img_wrap">
+                    <img src="images/everett.jpg" alt="Everett McKay">
+                    <p>Everett McKay</p>
+                    <h6>Eight Attributes of an intuitive UI</h6>
+                </div></a>
+                <a href="http://uxburlington.com/speaker/cory.html" title="Cory Tanner bio"><div class="img_wrap">
+                    <img src="images/cory.jpg" alt="Cory Tanner">
+                    <p>Cory Tanner</p>
+                    <h6>Build your own development process with postCSS</h6>
+                </div></a>
+            </div>
+            <div id="signUp">
+                <h2>Sign up for the mailing list</h2>
+                <p>join our mailing list to be the first hear our call for proposals, tickets sales, sponsorship opportunities, and other details</p>
+                <p><input type="text" id="hometown"><input type="button" id="myButton" value="Subscribe"></p>
+                <p id="emailText">We promise not to spam you or sell your email address. We will, however, try and sell you tickets.</p>
+            </div>
+            <div id="sponsors">
+                <h1>Sponsors</h1>
+                <h3>Level 2</h3>
+                <img class="level2" src="images/burlingtonbytes-logo.svg" alt="Burlington Bytes logo">
+                <img class="level2" src="images/propeller-logo.svg" alt="Propeller logo">
+                <img class="level2" src="images//vtdigger-logo.svg" alt="VTDigger.org logo">
+                <h3>Level 1</h3>
+                <img class="level1" src="images/ccv.png" alt="ccv logo">
+                <img class="level1" src="images/mil.svg" alt="MIL logo">
+                <img class="level1" src="images/localvore-today.svg" alt="Loacolvore today logo">
+                <img class="level1" src="images/usm-logo.png" alt="ASM logo">
+                <img class="level1" src="images/ux-design-edge.png" alt="UX Design Edge Logo">
+                <img class="level1" src="images/MCL.svg" alt="MCL logo">
+                <p>Interested in sponsoring UX Burlington? Download our <a href="#" title="#">sponsorship prospectus</a> for details or email us at <a href="#" title="#">info@uxburlington.com</a> for details.</p>
+            </div>
+            <footer>
+                <div id="textWrap1">
+                    <h5>Conact</h5>
+                    <ul>
+                        <li><a href="https://twitter.com/?lang=en" title="Twitter">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/" title="facebook">Facebook</a></li>
+                    </ul> 
+                </div>
+            </footer>
+    	</div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
